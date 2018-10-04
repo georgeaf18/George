@@ -1,0 +1,336 @@
+body{
+ /*background-color: #f75336;*/
+ font-size: 1.5em;
+ line-height: 1.5;
+ font-family: 'Frank Ruhl Libre', serif;
+
+
+}
+
+#drop-menu{
+  display: none;
+}
+
+#content{
+  background-color: white;
+  margin-top: -20px;
+
+
+}
+#header{
+
+  display:block;
+  margin-top: -22px;
+
+}
+
+#home img{
+  height: 25%;
+  width: 32%;
+}
+
+/* #home img{
+  float: left;
+  width:10%;
+  height:15%;
+
+}
+
+#home h1{
+
+  position: relative;
+}
+
+#home a{
+color: Black;
+
+} */
+/*
+#home a:hover{
+  color: orange;
+}  */
+
+
+a{
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+a:hover{
+  color: #ffa949;
+  background-color: white
+}
+
+#background-img img{
+  width: 100%;
+  height: 95%;
+  margin-top: -20px;
+}
+
+ #arrow-img{
+  width: 10%;
+  margin-left: 30%;
+  /* height: 10%; */
+   /* margin-left: 45%;
+  margin-right: 45%;  */
+
+}
+
+.container{
+  width: 100%;
+
+
+}
+.serv-container{
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 20px;
+  border-top: #ffa949 solid 10px;
+  background-color: #34373a;
+  color: white;
+
+
+}
+
+#services{
+  border: solid orange 2px;
+  border-radius: 5px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 20px;
+  width: 100%;
+
+
+}
+
+
+#hor-nav-bar {
+    background-color:#ffa949;
+    display:inline;
+
+}
+#nav-bar {
+    display: flex;
+    justify-content:space-around;
+    list-style-type:none;
+    /* border-bottom-style: solid;
+    border-top-style: solid; */
+    border-width: thin;
+    background-color: #ffa949;
+    margin-top: 0px;
+
+  }
+
+
+
+  /* #pop-cuts img{
+    width: 100px;
+
+  } */
+
+  #pop-cuts{
+    margin-top: 60px;
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    border-top: #ffa949 solid 10px;
+      background-color: #34373a;
+      color: white;
+      text-align: center;
+  }
+
+  #pop-cuts img{
+    border-radius: 10px;
+  }
+
+#content{
+  overflow: hidden;
+  padding: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+  #right-side {
+    overflow: hidden;
+    float: right;
+    padding-right: 30px;
+    width: 45%;
+    margin-top: 30px;
+
+
+
+  }
+
+  .info-bar{
+    border: solid 2px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border-top: #ffa949 solid 10px;
+      background-color: #34373a;
+      color: white;
+  }
+
+  .info-bar h2, #serv-container h3, #pop-cuts h2{
+    color: orange;
+  }
+
+
+  #left-side{
+    float: left;
+    width: 45%;
+  }
+
+  #clear{
+    clear: both;
+  }
+
+  #footer{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: orange solid 15px;
+    margin-bottom: -20px;
+
+  }
+
+  #footer a{
+    color: black;
+  }
+
+  #footer a:hover{
+    color: orange;
+  }
+
+
+/* ----------Gallery CSS-------- */
+
+.gallery-text{
+  text-align: center;
+  font-size: 40px;
+}
+
+.gallery-img {
+
+  height: 40%;
+  width: 30%;
+  object-fit: cover;
+  margin-right: 5px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#main-gallery{
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  border-left: solid orange 2px;
+  border-right: solid orange 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Media Query------------------ */
+
+
+  /* tablets */
+  @media screen and (max-width: 768px){
+     body{
+      /* min-width: 150%; */
+      overflow-x: hidden;
+    }
+
+    #home img{
+      width: 50%;
+      height: 27%;
+    }
+
+    #right-side{
+      width: 95%;
+    }
+
+    #left-side{
+      float: left;
+      width: 95%;
+    }
+
+  #arrow-img img{
+      width: 200%;
+      height: 10%;
+      margin-left: 125%;
+
+
+    }
+
+    #background-img img{
+      position: relative;
+      width: 180%;
+      left: -50%;
+    }
+
+
+  }
+
+
+  /* phones */
+  @media screen and (max-width: 480px){
+    /* body{
+      background-color: green;
+    } */
+
+    #background-img img{
+      position: relative;
+      width: 160%;
+      left: -30%;
+      height: 50%;
+    }
+
+    #home img{
+      float: left;
+      width:70%;
+      height:20%;
+
+    }
+
+
+
+    #arrow-img img{
+      width: 250%;
+    }
+
+    #nav-bar{
+       display: inline-block;
+      width: 100%;
+      padding: 0;
+
+    }
+
+    .nav-item{
+      border-top: solid 2px white;
+
+      float: none;
+      text-align: left;
+      display: block;
+    }
+
+    #home h1{
+      padding-bottom: 0px;
+      margin-bottom: -10px;
+      padding-left: 50px;
+    }
+
+    .burger-nav{
+      display: block;
+      width: 400px;
+    }
+
+  }
